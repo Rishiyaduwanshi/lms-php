@@ -5,6 +5,6 @@ if ($_SERVER['HTTP_HOST'] == 'localhost') {
     define("DIR_URL", $_SERVER['DOCUMENT_ROOT'] . "/");
     define("SERVER_NAME", "localhost");
     define("USERNAME", "root");
-    define("PASSWORD", "");
-    define("DATABASE", "lms");
+    define("PASSWORD", "Ab85409876@");
+    define("DATABASE", "jctrrajv_lms");
 } 
