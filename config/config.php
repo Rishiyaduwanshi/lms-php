@@ -1,10 +1,5 @@
 <?php
 session_start();
-require_once 'vendor/autoload.php';
-
-// Load environment variables from the .env file
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-$dotenv->load();
 
 if ($_SERVER['HTTP_HOST'] == 'localhost') {
     define("BASE_URL", "http://localhost/");
