@@ -1,9 +1,5 @@
 {
-    "name": "lms",
-    "description": "lms",
-    "type": "project",
     "require": {
-        "php": ">=7.2",
-        "vlucas/phpdotenv": "^5.4"
+        "vlucas/phpdotenv": "^5.6"
     }
 }
