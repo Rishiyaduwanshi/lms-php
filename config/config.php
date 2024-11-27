@@ -6,8 +6,8 @@ require_once 'vendor/autoload.php';
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
-if ($_SERVER['HTTP_HOST'] == 'walrus-app-65ogh.ondigitalocean.app') {
-    define("BASE_URL", "https://walrus-app-65ogh.ondigitalocean.app/");
+if ($_SERVER['HTTP_HOST'] == 'localhost') {
+    define("BASE_URL", "http://localhost/");
     define("DIR_URL", $_SERVER['DOCUMENT_ROOT'] . "/");
     // Access environment variables and define constants
     define("SERVER_NAME", getenv("DB_HOST"));
